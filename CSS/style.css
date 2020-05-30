@@ -10,7 +10,7 @@
     header{
         text-align: left;
     }
-    video{
+    iframe{
         width: 80%;
     }
     .Nav{
@@ -40,7 +40,7 @@
     footer{
         font-size: 16px;
     }
-    video{
+    iframe{
         width: 50%;
     }
     .Nav{
@@ -92,7 +92,7 @@ header{
     color: rgba(10 10 10);
 }
 .nav:active{
-    transform: scale(0.5,0.5);
+    transform: scale(0.9,0.9);
 }
 body{
    background-color: rgba(10 10 10);
@@ -142,7 +142,7 @@ footer{
     background-color: fuchsia;
     color: rgba(10 10 10);
     box-shadow: 0px 0px 0px 0px rgba(20 20 20);
-    transform: scale(0.5,0.5);
+    transform: scale(0.9,0.9);
 }
 .s1:hover{
     color:red;
@@ -189,6 +189,13 @@ footer{
     
     color: yellow;
 }
+a{
+    text-decoration: none;
+}
 a:visited{
     color:fuchsia;
+}
+.p1{
+    color: red;
+    
 }
